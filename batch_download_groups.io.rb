@@ -124,7 +124,6 @@ end
 gio_username = ENV["GIO_USERNAME"]
 gio_password = ENV["GIO_PASSWORD"]
 
-# gio = GroupsIO.new("k6ndc@nathanchilton.com", "2mOfPigMeat!")
 gio = GroupsIO.new(gio_username, gio_password)
 group = {}
 
